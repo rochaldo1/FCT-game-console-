@@ -38,9 +38,9 @@ namespace Game
             Random random = new();
 
             Console.WriteLine("Выберите игрока:");
-            Console.WriteLine("\tpc: Игрок, которого выберет компьютер;");
-            Console.WriteLine("\taa: Игрок A (только для 2 партии);");
-            Console.WriteLine("\tbb: Игрок B (только для 2 партии);");
+            Console.WriteLine("\tpc;");
+            Console.WriteLine("\taa;");
+            Console.WriteLine("\tbb.");
             Console.Write("Выбор: ");
             
             var input = Console.ReadLine();
