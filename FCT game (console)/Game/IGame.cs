@@ -12,5 +12,7 @@ namespace FCT_game__console_.Game
         public IGameSettings Settings { get; }
         public IPlayer FirstPlayer { get; }
         public IPlayer SecondPlayer { get; }
+
+        public bool MakeChoice(bool playerChoice, bool botChoice);
     }
 }
