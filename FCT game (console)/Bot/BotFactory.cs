@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FCT_game__console_.Bot
 {
-    public class BotFactory
+    public class BotFactory : IBotFactory
     {
         private readonly IDictionary<string, IBot> _bots;
 

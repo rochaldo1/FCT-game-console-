@@ -42,21 +42,21 @@ namespace FCT_game__console_.Game
                 }
                 else
                 {
-                    FirstPlayer.Points = Settings.FailurePoints;
-                    SecondPlayer.Points = Settings.FailurePoints;
+                    FirstPlayer.Points += Settings.FailurePoints;
+                    SecondPlayer.Points += Settings.FailurePoints;
                 }
             }
             else
             {
                 if (playerChoice)
                 {
-                    FirstPlayer.Points = Settings.FailurePoints;
-                    SecondPlayer.Points = Settings.SuccessPoints;
+                    FirstPlayer.Points += Settings.FailurePoints;
+                    SecondPlayer.Points += Settings.SuccessPoints;
                 }
                 else
                 {
-                    FirstPlayer.Points = Settings.SuccessPoints;
-                    SecondPlayer.Points = Settings.FailurePoints;
+                    FirstPlayer.Points += Settings.SuccessPoints;
+                    SecondPlayer.Points += Settings.FailurePoints;
                 }
             }
 
