@@ -8,7 +8,7 @@ namespace FCT_game__console_.Menu
 {
     static class RulesPrinter
     {
-        public static void Printer()
+        public static void PrintRules()
         {
             Console.WriteLine("~-----------------* Правила игры *-----------------~");
             Console.WriteLine("\tВы выступаете в игре в роли Игрока 1. Игрок 2 скрыт от Вас за экраном компьютера, но" +
